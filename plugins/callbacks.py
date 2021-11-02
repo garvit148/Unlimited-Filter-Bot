@@ -47,14 +47,14 @@ async def cb_handler(client, query):
         keyboard = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("How to Deploy?", url="https://youtu.be/hkmc3e7U7R4"),
+                    InlineKeyboardButton("Contact My Owner", url="https://t.me/gtxprime"),
                     InlineKeyboardButton("About Me", callback_data="about_data")
                 ],
-                [
-                    InlineKeyboardButton("BOT Channel", url="https://t.me/TroJanzHEX"),
-                    InlineKeyboardButton("Support Group", url="https://t.me/TroJanzSupport")
-                ]
-            ]
+                InlineKeyboardButton("Main Channel", url="https://t.me/Movies_BlackX"),
+                    InlineKeyboardButton("Request Group", url="https://t.me/BlackX_MArket")
+                ], 
+                [ InlineKeyboardButton("Search Movies !", url="https://t.me/BlackSovereignAdBot")
+                ]]
         )
 
         await query.message.edit_text(
@@ -70,7 +70,7 @@ async def cb_handler(client, query):
             [
                 [
                     InlineKeyboardButton(
-                        "SOURCE CODE", url="https://github.com/TroJanzHEX/Unlimited-Filter-Bot")
+                        "SOURCE CODE", url="https://https://github.com/garvit148/Unlimited-Filter-Bot")
                 ],
                 [
                     InlineKeyboardButton("BACK", callback_data="help_data"),
