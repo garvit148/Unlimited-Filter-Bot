@@ -49,7 +49,7 @@ async def cb_handler(client, query):
                 [
                     InlineKeyboardButton("Contact My Owner", url="https://t.me/gtxprime"),
                     InlineKeyboardButton("About Me", callback_data="about_data")
-                ],
+                ],[
                 InlineKeyboardButton("Main Channel", url="https://t.me/Movies_BlackX"),
                     InlineKeyboardButton("Request Group", url="https://t.me/BlackX_MArket")
                 ], 
