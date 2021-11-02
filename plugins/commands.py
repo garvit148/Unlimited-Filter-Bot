@@ -250,8 +250,8 @@ async def help(client, message):
                     InlineKeyboardButton("Main Channel", url="https://t.me/Movies_BlackX"),
                     InlineKeyboardButton("Request Group", url="https://t.me/BlackX_MArket")
                 ], 
-                [ InlineKeyboardButton("Search Movies !", url="https://t.me/BlackSovereignAdBot"),
-            ]
+                [ InlineKeyboardButton("Search Movies !", url="https://t.me/BlackSovereignAdBot")
+                ]]
         ),
         reply_to_message_id=message.message_id
     )
