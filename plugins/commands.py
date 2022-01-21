@@ -247,8 +247,8 @@ async def help(client, message):
                     InlineKeyboardButton("About Me", callback_data="about_data")
                 ],
                 [
-                    InlineKeyboardButton("Main Channel", url="https://t.me/Movies_BlackX"),
-                    InlineKeyboardButton("Request Group", url="https://t.me/BlackX_MArket")
+                    InlineKeyboardButton("Main Channel", url="https://t.me/BlackHarbour"),
+                    InlineKeyboardButton("Request Group", url="https://t.me/BlackHarbourX")
                 ], 
                 [ InlineKeyboardButton("Search Movies !", url="https://t.me/BlackSovereignAdBot")
                 ]]
