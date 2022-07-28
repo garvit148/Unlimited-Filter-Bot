@@ -269,3 +269,4 @@ async def about(client, message):
         ),
         reply_to_message_id=message.message_id
     )
+    print(message.text)
