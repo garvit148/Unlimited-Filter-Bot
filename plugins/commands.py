@@ -161,19 +161,13 @@ async def bot_status(client,message):
                 leftperc = math.floor(quota_left / total_quota * 100)
 
                 quota_details = f"""
-
 **Heroku Account Status**
-
 > __You have **{total} hours** of free dyno quota available each month.__
-
 > __Dyno hours used this month__ ;
         - **{used} hours**  ( {usedperc}% )
-
 > __Dyno hours remaining this month__ ;
         - **{hours} hours**  ( {leftperc}% )
         - **Approximately {days} days!**
-
-
 """
             else:
                 quota_details = ""
@@ -243,15 +237,14 @@ async def help(client, message):
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("Contact My Owner", url="https://t.me/gtxprime"),
+                    InlineKeyboardButton("How to Deploy?", url="https://youtu.be/hkmc3e7U7R4"),
                     InlineKeyboardButton("About Me", callback_data="about_data")
                 ],
                 [
-                    InlineKeyboardButton("Main Channel", url="https://t.me/BlackHarbour"),
-                    InlineKeyboardButton("Request Group", url="https://t.me/BlackHarbourX")
-                ], 
-                [ InlineKeyboardButton("Search Movies !", url="https://t.me/BlackSovereignAdBot")
-                ]]
+                    InlineKeyboardButton("BOT Channel", url="https://t.me/TroJanzHEX"),
+                    InlineKeyboardButton("Support Group", url="https://t.me/TroJanzSupport")
+                ]
+            ]
         ),
         reply_to_message_id=message.message_id
     )
@@ -266,7 +259,7 @@ async def about(client, message):
             [
                 [
                     InlineKeyboardButton(
-                        "SOURCE CODE", url="https://https://github.com/garvit148/Unlimited-Filter-Bot")
+                        "SOURCE CODE", url="https://github.com/TroJanzHEX/Unlimited-Filter-Bot")
                 ],
                 [
                     InlineKeyboardButton("BACK", callback_data="help_data"),
